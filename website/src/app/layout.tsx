@@ -14,25 +14,26 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "步衡智研 AI Lab | 跌倒康复研究与AI应用",
-    template: "%s | 步衡智研",
+    default: "CyderTech | Network Cameras & Computer Accessories",
+    template: "%s | CyderTech",
   },
-  description: "专注于跌倒后老人行动困难与下肢康复需求研究，用AI技术整理真实案例，积累康复产品数据资产。",
-  keywords: ["跌倒康复", "老人行动困难", "下肢康复", "AI康复研究", "步衡智研"],
-  authors: [{ name: "步衡智研" }],
-  creator: "步衡智研",
-  publisher: "步衡智研",
+  description: "Premium network cameras and computer accessories with professional installation services. AI-powered solutions for home security and business needs.",
+  keywords: ["network cameras", "computer accessories", "AI solutions", "home security", "installation services", "surveillance"],
+  authors: [{ name: "CyderTech" }],
+  creator: "CyderTech",
+  publisher: "CyderTech",
   openGraph: {
     type: "website",
-    locale: "zh_CN",
-    title: "步衡智研 AI Lab",
-    description: "专注于跌倒后老人行动困难与下肢康复需求研究",
-    siteName: "步衡智研",
+    locale: "en_US",
+    title: "CyderTech | Network Cameras & Computer Accessories",
+    description: "Premium network cameras and computer accessories with professional installation services.",
+    siteName: "CyderTech",
+    url: "https://cydertech.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "步衡智研 AI Lab",
-    description: "专注于跌倒后老人行动困难与下肢康复需求研究",
+    title: "CyderTech",
+    description: "Premium network cameras and computer accessories with professional installation services.",
   },
   robots: {
     index: true,
@@ -47,7 +48,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="zh-CN"
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
