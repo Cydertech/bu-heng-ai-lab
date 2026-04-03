@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="rgb" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="33%" style="stop-color:#22c55e"/>
+      <stop offset="66%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg4)"/>
+  
+  <!-- Keyboard Body -->
+  <g transform="translate(40, 140)">
+    <rect width="320" height="120" rx="8" fill="#1f2937"/>
+    <rect x="5" y="5" width="310" height="110" rx="6" fill="#111827"/>
+    
+    <!-- Key Rows -->
+    <g fill="#374151">
+      <!-- Row 1 -->
+      <rect x="10" y="10" width="24" height="24" rx="3"/>
+      <rect x="38" y="10" width="24" height="24" rx="3"/>
+      <rect x="66" y="10" width="24" height="24" rx="3"/>
+      <rect x="94" y="10" width="24" height="24" rx="3"/>
+      <rect x="122" y="10" width="24" height="24" rx="3"/>
+      <rect x="150" y="10" width="24" height="24" rx="3"/>
+      <rect x="178" y="10" width="24" height="24" rx="3"/>
+      <rect x="206" y="10" width="24" height="24" rx="3"/>
+      <rect x="234" y="10" width="24" height="24" rx="3"/>
+      <rect x="262" y="10" width="24" height="24" rx="3"/>
+      <rect x="290" y="10" width="16" height="24" rx="3"/>
+      
+      <!-- Row 2 -->
+      <rect x="10" y="38" width="32" height="24" rx="3"/>
+      <rect x="46" y="38" width="24" height="24" rx="3"/>
+      <rect x="74" y="38" width="24" height="24" rx="3"/>
+      <rect x="102" y="38" width="24" height="24" rx="3"/>
+      <rect x="130" y="38" width="24" height="24" rx="3"/>
+      <rect x="158" y="38" width="24" height="24" rx="3"/>
+      <rect x="186" y="38" width="24" height="24" rx="3"/>
+      <rect x="214" y="38" width="24" height="24" rx="3"/>
+      <rect x="242" y="38" width="24" height="24" rx="3"/>
+      <rect x="270" y="38" width="36" height="24" rx="3"/>
+      
+      <!-- Row 3 -->
+      <rect x="10" y="66" width="38" height="24" rx="3"/>
+      <rect x="52" y="66" width="24" height="24" rx="3"/>
+      <rect x="80" y="66" width="24" height="24" rx="3"/>
+      <rect x="108" y="66" width="24" height="24" rx="3"/>
+      <rect x="136" y="66" width="24" height="24" rx="3"/>
+      <rect x="164" y="66" width="24" height="24" rx="3"/>
+      <rect x="192" y="66" width="24" height="24" rx="3"/>
+      <rect x="220" y="66" width="24" height="24" rx="3"/>
+      <rect x="248" y="66" width="24" height="24" rx="3"/>
+      <rect x="276" y="66" width="30" height="24" rx="3"/>
+      
+      <!-- Space Bar -->
+      <rect x="10" y="94" width="120" height="24" rx="3"/>
+      <rect x="134" y="94" width="24" height="24" rx="3"/>
+      <rect x="162" y="94" width="24" height="24" rx="3"/>
+      <rect x="190" y="94" width="116" height="24" rx="3"/>
+    </g>
+    
+    <!-- RGB Underglow -->
+    <rect x="-5" y="120" width="330" height="4" rx="2" fill="url(#rgb)" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.6;0.9" dur="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- RGB Indicator -->
+  <g transform="translate(200, 80)">
+    <rect x="-50" y="-15" width="100" height="30" rx="15" fill="#3b82f6"/>
+    <text x="0" y="6" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">RGB BACKLIT</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e2e8f0">Mechanical Keyboard</text>
+  <text x="200" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Cherry MX Switches • Aluminum Frame</text>
+</svg>

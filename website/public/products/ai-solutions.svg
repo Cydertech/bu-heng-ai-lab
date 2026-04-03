@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="aibg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f766e"/>
+      <stop offset="100%" style="stop-color:#134e4a"/>
+    </linearGradient>
+    <filter id="glow3">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#aibg)"/>
+  
+  <!-- Neural Network -->
+  <g filter="url(#glow3)">
+    <!-- Nodes -->
+    <circle cx="80" cy="100" r="15" fill="#14b8a6"/>
+    <circle cx="80" cy="200" r="15" fill="#14b8a6"/>
+    <circle cx="80" cy="300" r="15" fill="#14b8a6"/>
+    
+    <circle cx="160" cy="150" r="12" fill="#5eead4"/>
+    <circle cx="160" cy="250" r="12" fill="#5eead4"/>
+    
+    <circle cx="240" cy="120" r="12" fill="#5eead4"/>
+    <circle cx="240" cy="200" r="12" fill="#5eead4"/>
+    <circle cx="240" cy="280" r="12" fill="#5eead4"/>
+    
+    <circle cx="320" cy="150" r="12" fill="#99f6e4"/>
+    <circle cx="320" cy="250" r="12" fill="#99f6e4"/>
+    
+    <!-- Connections -->
+    <g stroke="#14b8a6" stroke-width="2" opacity="0.6">
+      <line x1="80" y1="100" x2="160" y2="150"/>
+      <line x1="80" y1="200" x2="160" y2="150"/>
+      <line x1="80" y1="200" x2="160" y2="250"/>
+      <line x1="80" y1="300" x2="160" y2="250"/>
+      
+      <line x1="160" y1="150" x2="240" y2="120"/>
+      <line x1="160" y1="150" x2="240" y2="200"/>
+      <line x1="160" y1="250" x2="240" y2="200"/>
+      <line x1="160" y1="250" x2="240" y2="280"/>
+      
+      <line x1="240" y1="120" x2="320" y2="150"/>
+      <line x1="240" y1="200" x2="320" y2="150"/>
+      <line x1="240" y1="200" x2="320" y2="250"/>
+      <line x1="240" y1="280" x2="320" y2="250"/>
+    </g>
+  </g>
+  
+  <!-- AI Brain Icon -->
+  <g transform="translate(200, 200)">
+    <circle r="40" fill="#0d9488" opacity="0.5"/>
+    <circle r="30" fill="#14b8a6"/>
+    <text x="0" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">AI</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ccfbf1">Custom AI Solutions</text>
+  <text x="200" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#99f6e4">Tailored for Your Business</text>
+</svg>
