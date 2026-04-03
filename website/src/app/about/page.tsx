@@ -19,6 +19,7 @@ export default function AboutPage() {
             <Link href="/services" className="hover:text-slate-900 transition">Services</Link>
             <Link href="/about" className="text-blue-600 font-medium">About</Link>
             <Link href="/contact" className="hover:text-slate-900 transition">Contact</Link>
+            <Link href="/cart" className="hover:text-slate-900 transition text-lg">🛒</Link>
           </div>
         </div>
       </nav>
